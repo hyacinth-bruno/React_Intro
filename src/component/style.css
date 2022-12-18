@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header, main{
+    background: #9e70c9;
+}
+
+.left-nav{
+    display: flex;
+    gap: 50px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    justify-content: space-around;
+    text-transform: uppercase;
+   
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 400px;
+}
+
+.left-main > p{
+    text-transform: uppercase;
+    color: white;
+}
+
+.left-main > h2{
+    color: white;
+}
+
+.top-left-footer{
+    display: flex;
+   gap: 20px;
+   justify-content: flex-start;
+}
+
+.top-footer{
+    display: flex;
+    justify-content:  space-around; 
+    text-transform: uppercase;
+    padding: 20px;
+    background: #e7e7ea;
+}
+
+
+.bottom-footer{
+    display: flex;
+    padding: 50px;
+    text-align: center;
+    gap: 60px;
+}
+
+.easy, .open, .fast, .flexible{
+    border: outset #9e70c9;
+}
